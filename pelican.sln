@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "esrmnt.pelican.function", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "esrmnt.pelican.common", "src\esrmnt.pelican.common\esrmnt.pelican.common.csproj", "{8AA06D0B-FB55-4A85-BCCD-8FE735797EB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "esrmnt.pelican.console", "src\esrmnt.pelican.console\esrmnt.pelican.console.csproj", "{5272C601-8AA8-45FD-A36E-90D153581EE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +28,14 @@ Global
 		{8AA06D0B-FB55-4A85-BCCD-8FE735797EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AA06D0B-FB55-4A85-BCCD-8FE735797EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AA06D0B-FB55-4A85-BCCD-8FE735797EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5272C601-8AA8-45FD-A36E-90D153581EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5272C601-8AA8-45FD-A36E-90D153581EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5272C601-8AA8-45FD-A36E-90D153581EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5272C601-8AA8-45FD-A36E-90D153581EE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D77EE52E-BC09-4A2B-AB1B-26DE45E552AE} = {84238EF1-6509-48D8-B2BF-2EBFC0CCB643}
 		{8AA06D0B-FB55-4A85-BCCD-8FE735797EB3} = {84238EF1-6509-48D8-B2BF-2EBFC0CCB643}
+		{5272C601-8AA8-45FD-A36E-90D153581EE6} = {84238EF1-6509-48D8-B2BF-2EBFC0CCB643}
 	EndGlobalSection
 EndGlobal
