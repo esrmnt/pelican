@@ -1,16 +1,22 @@
-namespace esrmnt.pelican.tests;
-
-public class Tests
+namespace esrmnt.pelican.tests
 {
-    [SetUp]
-    public void Setup()
-    {
-    }
+    using System;
+    using System.Linq;
+    using System.Text;
+    using NUnit.Framework;
+    using System.Collections.Generic;
+    using esrmnt.pelican.tests.Properties;
 
-    [Test]
-    public void Test1()
+    [TestFixture]
+    public class UnitTest1
     {
-        System.Console.WriteLine("Yo");
-        Assert.Pass();
+        [Test]
+        public void TestMethod1()
+        {
+            var test = new Pelican();
+            var result = test.GetPelican(Resources.test);
+            Assert.AreEqual(result, "Pelican");
+        }
     }
+     
 }
