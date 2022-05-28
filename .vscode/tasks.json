@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/esrmnt.pelican.common/esrmnt.pelican.common.csproj",
+                "${workspaceFolder}/tests/esrmnt.pelican.tests/esrmnt.pelican.tests.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/src/esrmnt.pelican.common/esrmnt.pelican.common.csproj",
+                "${workspaceFolder}/tests/esrmnt.pelican.tests/esrmnt.pelican.tests.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/src/esrmnt.pelican.common/esrmnt.pelican.common.csproj"
+                "${workspaceFolder}/tests/esrmnt.pelican.tests/esrmnt.pelican.tests.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

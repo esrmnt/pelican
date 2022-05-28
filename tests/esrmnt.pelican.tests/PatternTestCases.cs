@@ -7,16 +7,14 @@ namespace esrmnt.pelican.tests
     using System.Collections.Generic;
     using esrmnt.pelican.common.abstracts;
     using esrmnt.pelican.common.patterns;
-    using esrmnt.pelican.common.interfaces;
-    using esrmnt.pelican.common.clients;
-    
+    using esrmnt.pelican.common.interfaces;   
 
     [TestFixture]
     public class ChainOfResponsibility
     {
-        MonkeyHandler monkeyHandler;
-        SquirrelHandler squirrelHandler;
-        DogHandler dogHandler;
+        MonkeyHandler? monkeyHandler;
+        SquirrelHandler? squirrelHandler;
+        DogHandler? dogHandler;
 
         [SetUp]
         public void Setup()
