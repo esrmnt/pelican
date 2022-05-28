@@ -2,7 +2,7 @@
 
 namespace esrmnt.pelican.common.patterns
 {
-    class MonkeyHandler : AbstractHandler
+    public class MonkeyHandler : AbstractHandler
     {
         public override object Handle(object request)
         {
@@ -17,7 +17,7 @@ namespace esrmnt.pelican.common.patterns
         }
     }
 
-    class SquirrelHandler : AbstractHandler
+    public class SquirrelHandler : AbstractHandler
     {
         public override object Handle(object request)
         {
@@ -32,7 +32,7 @@ namespace esrmnt.pelican.common.patterns
         }
     }
 
-    class DogHandler : AbstractHandler
+    public class DogHandler : AbstractHandler
     {
         public override object Handle(object request)
         {

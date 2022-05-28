@@ -3,7 +3,7 @@ using esrmnt.pelican.common.interfaces;
 namespace esrmnt.pelican.common.abstracts
 {
     // The default chaining behavior can be implemented inside a base handler class.
-    abstract class AbstractHandler : IHandler
+    public abstract class AbstractHandler : IHandler
     {
         private IHandler _nextHandler;
 
